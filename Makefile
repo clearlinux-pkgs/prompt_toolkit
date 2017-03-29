@@ -1,5 +1,5 @@
 PKG_NAME := prompt_toolkit
-URL := https://pypi.python.org/packages/23/be/4876b52d5cc159cbd4b0ff6e7aa419a26470849a43a8f647857a4a24467b/prompt_toolkit-1.0.13.tar.gz
+URL := https://pypi.python.org/packages/55/56/8c39509b614bda53e638b7500f12577d663ac1b868aef53426fc6a26c3f5/prompt_toolkit-1.0.14.tar.gz
 
 
 include ../common/Makefile.common
