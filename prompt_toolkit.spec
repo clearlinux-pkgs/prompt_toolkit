@@ -4,7 +4,7 @@
 #
 Name     : prompt_toolkit
 Version  : 1.0.14
-Release  : 3
+Release  : 4
 URL      : https://pypi.python.org/packages/55/56/8c39509b614bda53e638b7500f12577d663ac1b868aef53426fc6a26c3f5/prompt_toolkit-1.0.14.tar.gz
 Source0  : https://pypi.python.org/packages/55/56/8c39509b614bda53e638b7500f12577d663ac1b868aef53426fc6a26c3f5/prompt_toolkit-1.0.14.tar.gz
 Summary  : Library for building powerful interactive command lines in Python
