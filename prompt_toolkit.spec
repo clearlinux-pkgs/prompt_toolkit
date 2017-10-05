@@ -4,12 +4,13 @@
 #
 Name     : prompt_toolkit
 Version  : 1.0.15
-Release  : 8
+Release  : 9
 URL      : https://pypi.debian.net/prompt_toolkit/prompt_toolkit-1.0.15.tar.gz
 Source0  : https://pypi.debian.net/prompt_toolkit/prompt_toolkit-1.0.15.tar.gz
 Summary  : Library for building powerful interactive command lines in Python
 Group    : Development/Tools
 License  : BSD-3-Clause
+Requires: prompt_toolkit-python3
 Requires: prompt_toolkit-python
 Requires: Pygments
 Requires: six
@@ -36,9 +37,19 @@ BuildRequires : wcwidth
 %package python
 Summary: python components for the prompt_toolkit package.
 Group: Default
+Requires: prompt_toolkit-python3
 
 %description python
 python components for the prompt_toolkit package.
+
+
+%package python3
+Summary: python3 components for the prompt_toolkit package.
+Group: Default
+Requires: python3-core
+
+%description python3
+python3 components for the prompt_toolkit package.
 
 
 %prep
@@ -49,7 +60,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1505403803
+export SOURCE_DATE_EPOCH=1507164427
 python3 setup.py build -b py3
 
 %install
@@ -63,5 +74,8 @@ echo ----[ mark ]----
 %defattr(-,root,root,-)
 
 %files python
+%defattr(-,root,root,-)
+
+%files python3
 %defattr(-,root,root,-)
 /usr/lib/python3*/*
