@@ -4,7 +4,7 @@
 #
 Name     : prompt_toolkit
 Version  : 2.0.3
-Release  : 18
+Release  : 19
 URL      : https://pypi.debian.net/prompt_toolkit/prompt_toolkit-2.0.3.tar.gz
 Source0  : https://pypi.debian.net/prompt_toolkit/prompt_toolkit-2.0.3.tar.gz
 Summary  : Library for building powerful interactive command lines in Python
@@ -68,7 +68,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1530278468
+export SOURCE_DATE_EPOCH=1530392940
 python3 setup.py build -b py3
 
 %install
