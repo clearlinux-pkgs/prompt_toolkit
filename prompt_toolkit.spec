@@ -4,7 +4,7 @@
 #
 Name     : prompt_toolkit
 Version  : 3.0.5
-Release  : 46
+Release  : 47
 URL      : https://files.pythonhosted.org/packages/69/19/3aa4bf17e1cbbdfe934eb3d5b394ae9a0a7fb23594a2ff27e0fdaf8b4c59/prompt_toolkit-3.0.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/69/19/3aa4bf17e1cbbdfe934eb3d5b394ae9a0a7fb23594a2ff27e0fdaf8b4c59/prompt_toolkit-3.0.5.tar.gz
 Summary  : Library for building powerful interactive command lines in Python
